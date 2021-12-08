@@ -76,6 +76,7 @@ public class CategoryDAO {
 	}
 	
 	public Category get(int id){
+		int a = 0;
 		Category category = null;
 		String sql = "select * from category where id = ?";
 		try(
